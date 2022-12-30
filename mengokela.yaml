@@ -66,7 +66,7 @@ proxy-providers:
 #   Blacklist:
 #     type: http
 #     behavior: domain
-#     url: "https://raw.githubusercontent.com/arijatipermana/VPN/main/rule_provider/blacklist.yaml"
+#     url: "https://raw.githubusercontent.com/desakertanegara/CEEFEM/main/rule_provider/blacklist.yaml"
 #     path: ./rule_provider/blacklist.yaml
 #     interval: 86400
 rules:
