@@ -37,7 +37,7 @@ proxy-groups:
 proxy-providers:
   "1. Main Server":
     type: http
-    url: "https://raw.githubusercontent.com/arijatipermana/VPN/main/proxy_provider/main_server.yaml"
+    url: "https://raw.githubusercontent.com/desakertanegara/CEEFEM/main/proxy_provider/utama.yaml"
     interval: 3600
     path: ./proxy_provider/main_server.yaml
     health-check:
@@ -46,7 +46,7 @@ proxy-providers:
       interval: 300
   "2. Group SG":
     type: http
-    url: "https://raw.githubusercontent.com/arijatipermana/VPN/main/proxy_provider/group_sg.yaml"
+    url: "https://raw.githubusercontent.com/desakertanegara/CEEFEM/main/proxy_provider/sg.yaml"
     interval: 3600
     path: ./proxy_provider/group_sg.yaml
     health-check:
@@ -55,7 +55,7 @@ proxy-providers:
       interval: 300
   "3. Group ID":
     type: http
-    url: "https://raw.githubusercontent.com/arijatipermana/VPN/main/proxy_provider/group_id.yaml"
+    url: "https://raw.githubusercontent.com/desakertanegara/CEEFEM/main/proxy_provider/id.yaml"
     interval: 3600
     path: ./proxy_provider/group_id.yaml
     health-check:
