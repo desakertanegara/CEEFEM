@@ -27,6 +27,11 @@ proxies:
     password: f7721f30-90c3-11ed-b295-1239d0255272
     skip-cert-verify: true
     sni: gz0.googleusercontent.com
+    network: ws
+    ws-opts: 
+       path: /howdy
+       headers: 
+         Host: trojan2.udpgw.com
     udp: true
   - name: SG OVH #2.1
     server: sg-lb.vhax.net
