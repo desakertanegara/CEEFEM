@@ -33,6 +33,19 @@ proxies:
        headers: 
          Host: trojan2.udpgw.com
     udp: true
+  - name: SG Weekly 3 #1.2
+    server: sgt1.sshocean.net
+    port: 443
+    type: trojan
+    password: 0fa5512a-5add-442f-be21-611c39f30918
+    skip-cert-verify: true
+    sni: gz0.googleusercontent.com
+    network: ws
+    ws-opts: 
+       path: /websocket
+       headers: 
+         Host: sgt1.sshocean.net
+    udp: true
   - name: SG OVH #2.1
     server: sg-lb.vhax.net
     port: 443
